@@ -18,7 +18,7 @@ const createWindow = () => {
   var mainWindow = new BrowserWindow({
     show:false,
     autoHideMenuBar: true,
-    icon: './logo.jpg',
+    icon: './icon.png',
     width:800,
     height:600,
   });
@@ -40,7 +40,7 @@ const createWindow = () => {
         text: 'Closing app...',
         browserWindow: {
           closable: false,
-          icon: './logo.jpg'
+          icon: './icon.png'
         }
       });
       setTimeout(function() {
